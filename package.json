@@ -1,0 +1,46 @@
+{
+  "name": "es6-router",
+  "version": "1.0.0",
+  "description": "es6 router",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dothanhlam/es6-router.git"
+  },
+  "keywords": [
+    "es6",
+    "router",
+    "decorator"
+  ],
+  "author": "Lam Do",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dothanhlam/es6-router/issues"
+  },
+  "homepage": "https://github.com/dothanhlam/es6-router#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.2.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^23.3.0",
+    "jest-cli": "^23.3.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
